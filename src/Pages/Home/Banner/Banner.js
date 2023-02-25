@@ -1,12 +1,14 @@
 import React from "react";
+import chair from '../../../assets/images/chair.png';
+//import bannerBg from '../../../assets/images/bg.png';
 
 const Banner = () => {
   return (
-    <div className="hero">
+    <div className="hero banner-bg">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="/images/stock/photo-1635805737707-575885ab0820.jpg"
-          className="rounded-lg shadow-2xl" alt=""
+          src={chair}
+          className="rounded-lg w-1/2 shadow-2xl" alt=""
         />
         <div>
           <h1 className="text-5xl font-bold">Box Office News!</h1>
@@ -15,7 +17,7 @@ const Banner = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white">Get Started</button>
         </div>
       </div>
     </div>
