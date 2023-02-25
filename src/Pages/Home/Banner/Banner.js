@@ -4,13 +4,9 @@ import chair from '../../../assets/images/chair.png';
 
 const Banner = () => {
   return (
-    <div className="hero banner-bg">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src={chair}
-          className="rounded-lg w-1/2 shadow-2xl" alt=""
-        />
-        <div>
+    <div className="hero banner-bg p-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
+        <div className="my-4 text-center lg:text-left">
           <h1 className="text-5xl font-bold">Box Office News!</h1>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
@@ -19,6 +15,10 @@ const Banner = () => {
           </p>
           <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white">Get Started</button>
         </div>
+        <img
+          src={chair}
+          className="rounded-lg w-full shadow-2xl" alt=""
+        />
       </div>
     </div>
   );
