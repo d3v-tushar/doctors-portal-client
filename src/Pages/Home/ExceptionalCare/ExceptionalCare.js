@@ -3,7 +3,7 @@ import treatment from '../../../assets/images/treatment.png';
 
 const ExceptionalCare = () => {
     return (
-        <section className='mt-24 grid grid-cols-1 lg:grid-cols-2 items-center gap-24 px-16 w-4/5 mx-auto'>
+        <section className='mt-24 grid grid-cols-1 lg:grid-cols-2 items-center gap-24  w-4/5 mx-auto'>
             <img className='rounded-xl' src={treatment} alt="dental treatment" />
             <div>
                 <h1 className='text-5xl font-bold my-4'>Exceptional Dental Care, on your Terms</h1>
